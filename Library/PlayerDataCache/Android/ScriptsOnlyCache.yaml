@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Block
     - Bullet
+    - BulletPool
     - CameraConstantWidth
     - Obstacle
     - ObstacleRotator
@@ -103,6 +104,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4016}
     - Class: 114
       Script: {instanceID: 4046}
+    - Class: 114
+      Script: {instanceID: 16886}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -664,6 +667,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 637d78c200bb708cf496592b40bf3829
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BulletPool
   platform: 13
   scenePathNames:
   - Assets/Scenes/Game.unity

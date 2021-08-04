@@ -57,14 +57,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Tower\Tower.cs" />
+    <Compile Include="Assets\Scripts\CameraConstantWidth.cs" />
     <Compile Include="Assets\Scripts\Obstacle\ObstacleRotator.cs" />
     <Compile Include="Assets\Scripts\Obstacle\Obstacle.cs" />
-    <Compile Include="Assets\Scripts\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Bullet\Bullet.cs" />
     <Compile Include="Assets\Scripts\Block.cs" />
     <Compile Include="Assets\Scripts\Tank.cs" />
-    <Compile Include="Assets\Scripts\Tower\TowerBuilder.cs" />
     <Compile Include="Assets\Scripts\Tower\TowerView.cs" />
-    <Compile Include="Assets\Scripts\CameraConstantWidth.cs" />
+    <Compile Include="Assets\Scripts\Tower\TowerBuilder.cs" />
+    <Compile Include="Assets\Scripts\PoolMono.cs" />
+    <Compile Include="Assets\Scripts\Bullet\BulletPool.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

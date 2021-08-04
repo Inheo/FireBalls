@@ -25,7 +25,9 @@ public class Tank : MonoBehaviour
 
     private void Shoot()
     {
-        Instantiate(_bulletTemplate, _shootPoint.position, Quaternion.identity, _parentBullet);
+        Bullet bullet = BulletPool.Instance.GetFreeBullet();
+        bullet.transform.position = _shootPoint.position;
+        //Instantiate(_bulletTemplate, _shootPoint.position, Quaternion.identity, _parentBullet);
     }
 
 }

@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class TowerBuilder : MonoBehaviour
 {
-    [SerializeField] private int _towerSize;
+    [SerializeField] private Level _level;
     [SerializeField] private Transform _buildPoint;
     [SerializeField] private Block _block;
 
@@ -14,8 +14,9 @@ public class TowerBuilder : MonoBehaviour
     public List<Block> Build()
     {
         Transform currentPoint = _buildPoint;
+        _materialsForBlock = _level.PipeMaterials.ToArray();
 
-        for (int i = 0; i < _towerSize; i++)
+        for (int i = 0; i < _level.TowerSize; i++)
         {
             Block newBlock = BuildBlock(currentPoint);
             newBlock.MeshRenderer.material = _materialsForBlock[i % _materialsForBlock.Length];

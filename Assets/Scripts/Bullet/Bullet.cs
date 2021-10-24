@@ -7,11 +7,18 @@ public class Bullet : MonoBehaviour
     [SerializeField] private float _bounceForce;
     [SerializeField] private float _bounceRadius;
 
+    private Camera cameraMain;
+
     private Vector3 moveDirection;
 
     private void OnEnable()
     {
         moveDirection = transform.forward;
+    }
+
+    private void Start()
+    {
+        cameraMain = Camera.main;
     }
 
     private void Update()
@@ -21,12 +28,12 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.TryGetComponent(out Block block))
+        if (other.TryGetComponent(out Block block))
         {
             block.Break();
             gameObject.SetActive(false);
         }
-        if(other.TryGetComponent(out Obstacle obstacle))
+        if (other.TryGetComponent(out Obstacle obstacle))
         {
             Bounce();
         }
@@ -34,7 +41,7 @@ public class Bullet : MonoBehaviour
 
     private void Bounce()
     {
-        moveDirection = (Camera.main.transform.position - transform.position).normalized;
+        moveDirection = (cameraMain.transform.position - transform.position).normalized;
 
         Rigidbody rigidbody = GetComponent<Rigidbody>();
         rigidbody.isKinematic = false;

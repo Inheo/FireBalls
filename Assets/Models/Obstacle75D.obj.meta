@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d55a46b20563cc34f9d39170c6be602b
+guid: 6c2201a64d8febe41b6878ae6d0c5839
 ModelImporter:
   serializedVersion: 21100
   internalIDToNameTable: []
@@ -7,12 +7,7 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: ArchMat
-    second: {fileID: 2100000, guid: 0c79472b5ce7afe46b6a243268137dbe, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: ProBuilderDefault
+      name: Obstacle
     second: {fileID: 2100000, guid: 0c79472b5ce7afe46b6a243268137dbe, type: 2}
   materials:
     materialImportMode: 2

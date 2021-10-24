@@ -17,7 +17,8 @@ public class Block : MonoBehaviour
     public void Break()
     {
         ParticleSystem particle = Instantiate(_deadParticle, transform.position, _deadParticle.transform.rotation);
-        particle.startColor = _meshRenderer.material.color;
+        ParticleSystem.MainModule main = particle.main;
+        main.startColor = _meshRenderer.material.color;
         particle.Play();
 
         OnBreak?.Invoke(this);

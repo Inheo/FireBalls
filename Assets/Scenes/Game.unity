@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -9120751668657384833, guid: d342102d57fb85b489ebbe163674db2b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c346c1b1e9327a4893d41f9d8eb0cfd, type: 2}
     - target: {fileID: -8679921383154817045, guid: d342102d57fb85b489ebbe163674db2b, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1130,8 +1134,8 @@ MonoBehaviour:
   _basePipeMaterial: {fileID: 2100000, guid: 93541b9a90622c14e83953c4d92b2fdf, type: 2}
   _towerSizeView: {fileID: 901870393}
   _levelSettings:
-  - {fileID: 11400000, guid: 3f43332a3ff1f904db90a449167ced2e, type: 2}
   - {fileID: 11400000, guid: 9aac3297287e9ec439e1861f5e4dfc4b, type: 2}
+  - {fileID: 11400000, guid: 3f43332a3ff1f904db90a449167ced2e, type: 2}
 --- !u!4 &1536105878
 Transform:
   m_ObjectHideFlags: 0

@@ -24,7 +24,11 @@ MonoBehaviour:
   - {r: 0.8784314, g: 0.2, b: 1, a: 1}
   - {r: 1, g: 0, b: 0.009897232, a: 1}
   obstacleSettings:
-  - ObstaclePrefab: {fileID: 3743346767059369734, guid: e8e701f00f461da47b45452668f21242, type: 3}
+  - ObstaclePrefab: {fileID: 6531976078606304196, guid: 15dc1076e8f866e4f8fea641260ecf60, type: 3}
     Position: {x: 0, y: 0, z: 0}
     Rotation: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - ObstaclePrefab: {fileID: 7140466610210426663, guid: e661327ba71e5144eb1b2c5d23c7a9c9, type: 3}
+    Position: {x: 0, y: 0, z: 0}
+    Rotation: {x: 0, y: -200, z: 0}
     Scale: {x: 1, y: 1, z: 1}

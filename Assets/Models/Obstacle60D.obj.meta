@@ -7,11 +7,6 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: ArchMat
-    second: {fileID: 2100000, guid: 0c79472b5ce7afe46b6a243268137dbe, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: ProBuilderDefault
     second: {fileID: 2100000, guid: 0c79472b5ce7afe46b6a243268137dbe, type: 2}
   materials:

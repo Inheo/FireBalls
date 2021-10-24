@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637694725019202473
-    m_Hash: 2726442396
+      ticks: 637706634448128893
+    m_Hash: 248960968
   m_LockFileStatus:
     m_FilePath: D:/UnityStudy/FireBalls/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637694725304873171
-    m_Hash: 1460271292
+      ticks: 637706634448813795
+    m_Hash: 1069478056
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -72,6 +72,8 @@ m_ResolvedPackages:
     - 1.11.2
     - 1.12.5
     - 1.13.5
+    - 1.14.1
+    - 1.15.1
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -86,6 +88,8 @@ m_ResolvedPackages:
     - 1.11.2
     - 1.12.5
     - 1.13.5
+    - 1.14.1
+    - 1.15.1
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -355,12 +359,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.4
     nextVersion: 
-- packageId: com.unity.probuilder@5.0.3
+- packageId: com.unity.probuilder@4.4.0
   testable: 0
   isDirectDependency: 1
-  version: 5.0.3
+  version: 4.4.0
   source: 1
-  resolvedPath: D:\UnityStudy\FireBalls\Library\PackageCache\com.unity.probuilder@5.0.3
+  resolvedPath: D:\UnityStudy\FireBalls\Library\PackageCache\com.unity.probuilder@4.4.0
   assetPath: Packages/com.unity.probuilder
   name: com.unity.probuilder
   displayName: ProBuilder
@@ -377,12 +381,7 @@ m_ResolvedPackages:
 
     Advanced features include UV editing, vertex colors, parametric
     shapes, and texture blending. With ProBuilder''s model export feature it''s easy
-    to tweak your levels in any external 3D modelling suite.
-
-
-    If you are using
-    URP/HDRP, be careful to also import the corresponding sample project in the section
-    below to get the proper materials.'
+    to tweak your levels in any external 3D modelling suite.'
   status: 4
   errors: []
   versions:
@@ -429,17 +428,9 @@ m_ResolvedPackages:
   dependencies:
   - name: com.unity.settings-manager
     version: 1.0.3
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.settings-manager
     version: 1.0.3
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
   keywords:
   - 3d
   - model
@@ -473,13 +464,13 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637534907290000000
+  datePublishedTicks: 637334581170000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: git+https://github.com/Unity-Technologies/com.unity.probuilder.git
-    revision: 6a81f0485f2eed8c8a0c193422d52d55f64cd79c
+    revision: 04b57a20391934bc7460d5fe1017d157545b2a5f
     path: 
   unityLifecycle:
     version: 5.0.3
@@ -535,9 +526,11 @@ m_ResolvedPackages:
     - 1.1.26
     - 1.1.27
     - 1.1.29
+    - 1.1.30
     compatible:
     - 1.1.29
-    verified: 1.1.29
+    - 1.1.30
+    verified: 1.1.30
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -819,21 +812,25 @@ m_ResolvedPackages:
     - 1.5.4
     - 1.5.5
     - 1.5.6
+    - 1.5.7
     - 1.6.0-pre.1
     - 1.6.0-pre.3
     - 1.6.0-pre.4
     - 1.6.0-pre.5
     - 1.6.1
     - 1.6.2
+    - 1.6.3
     compatible:
     - 1.5.6
+    - 1.5.7
     - 1.6.0-pre.1
     - 1.6.0-pre.3
     - 1.6.0-pre.4
     - 1.6.0-pre.5
     - 1.6.1
     - 1.6.2
-    verified: 1.5.6
+    - 1.6.3
+    verified: 1.5.7
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -2865,6 +2862,11 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
     - 1.0.3
     compatible:
     - 1.0.3
@@ -2884,12 +2886,12 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637300096300000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
     revision: 473664ccba1496294b741cf169740a5d54b3d0b6
     path: 
   unityLifecycle:

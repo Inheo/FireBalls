@@ -1,11 +1,11 @@
 # ProBuilder 4.4.0
 # https://unity3d.com/unity/features/worldbuilding/probuilder
-# 24.10.2021 15:30:07
+# 24.10.2021 19:10:18
 
 mtllib ./Obstacle180D.mtl
 o Obstacle180D
 
-g 180d
+g 180deg
 v -5 1.5 0
 v -4.97261 1.5 0.5226424
 v -5 0.4999999 -1.192093E-07
